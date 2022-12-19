@@ -1,8 +1,8 @@
 class GiMacosLib < Formula
   desc "MacOS Lib via GObject Introspection"
   homepage "https://github.com/ten0s/gi-macos-lib"
-  url "https://github.com/ten0s/gi-macos-lib/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "cbeb647d3f0e7c0f9cea8f8aceccf32b0065a6c227b98a8e75d58a8ae9a13724"
+  url "https://github.com/ten0s/gi-macos-lib/archive/refs/tags/1.1.0.tar.gz"
+  sha256 "54da2120802b0f4d30f70592e6eeb260dfc7fc96c4d4ba05172f99012f7c77ee"
   license "BSD-2-Clause"
 
   depends_on "pcre2" => :build
