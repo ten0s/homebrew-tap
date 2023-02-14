@@ -5,7 +5,17 @@ class Slide < Formula
   sha256 "5efd1868138f8d42fa8fe5f62fb21fec7411e7063ac6bb6abdb3ac0624d70c03"
   license "TODO"
 
-  depends_on "pcre2" => :build
+  depends_on "atk"        => :build
+  depends_on "fribidi"    => :build
+  depends_on "gdk-pixbuf" => :build
+  depends_on "graphite2"  => :build
+  depends_on "gtk+3"      => :build
+  depends_on "harfbuzz"   => :build
+  depends_on "libepoxy"   => :build
+  depends_on "libjpeg"    => :build
+  depends_on "libtiff"    => :build
+  depends_on "pango"      => :build
+  depends_on "pcre2"      => :build
   depends_on "pkg-config" => :build
 
   depends_on "glib"

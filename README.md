@@ -5,6 +5,7 @@ https://github.com/ten0s/velisp
 
 ```
 % brew tap ten0s/tap
+% brew update
 ```
 
 ```
