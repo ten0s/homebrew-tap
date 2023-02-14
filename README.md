@@ -1,4 +1,5 @@
-[Homebrew Taps](https://docs.brew.sh/Taps) for https://github.com/ten0s/velisp
+[Homebrew Taps](https://docs.brew.sh/Taps) for
+https://github.com/ten0s/velisp
 
 ## Install
 
@@ -8,12 +9,14 @@
 
 ```
 % brew install libgimacos
+% brew install slide
 ```
 
 ## Uninstall
 
 ```
 % brew uninstall libgimacos
+% brew uninstall slide
 ```
 
 ```
