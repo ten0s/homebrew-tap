@@ -1,5 +1,5 @@
 [Homebrew Taps](https://docs.brew.sh/Taps) for
-https://github.com/ten0s/velisp
+[VeLisp](https://github.com/ten0s/velisp)
 
 ## Install
 
