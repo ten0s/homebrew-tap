@@ -1,4 +1,4 @@
-class LibGiMacos < Formula
+class Libgimacos < Formula
   desc "MacOS Lib via GObject Introspection"
   homepage "https://github.com/ten0s/libgimacos"
   url "https://github.com/ten0s/libgimacos/archive/refs/tags/1.3.0.tar.gz"
