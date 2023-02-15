@@ -1,10 +1,10 @@
-[Homebrew Taps](https://docs.brew.sh/Taps) for
+[Homebrew Tap](https://docs.brew.sh/Taps) for
 [VeLisp](https://github.com/ten0s/velisp)
 
 ## Install
 
 ```
-% brew tap ten0s/tap
+% brew tap ten0s/velisp
 % brew update
 ```
 
@@ -21,7 +21,7 @@
 ```
 
 ```
-% brew untap ten0s/tap
+% brew untap ten0s/velisp
 ```
 
 ## Devel
