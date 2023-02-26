@@ -1,11 +1,12 @@
 class Slide < Formula
   desc "AutoCAD slide library and command line utility"
   homepage "https://github.com/ten0s/slide"
-  url "https://github.com/ten0s/slide/archive/refs/tags/0.3.0.tar.gz"
-  sha256 "3e75e82d775520ba8c784c4e12f3233da25e250a165ff9c7506d6e32b0994d32"
+  url "https://github.com/ten0s/slide/archive/refs/tags/0.4.0.tar.gz"
+  sha256 "4fb2f1bbedfb305ff4a088e6237d4e7099a561efe76b1f05076eb9cd5cc35bef"
   license "TODO"
 
   depends_on "atk"        => :build
+  depends_on "boost"      => :build
   depends_on "fribidi"    => :build
   depends_on "gdk-pixbuf" => :build
   depends_on "graphite2"  => :build
