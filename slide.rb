@@ -3,7 +3,7 @@ class Slide < Formula
   homepage "https://github.com/ten0s/slide"
   url "https://github.com/ten0s/slide/archive/refs/tags/0.4.0.tar.gz"
   sha256 "4fb2f1bbedfb305ff4a088e6237d4e7099a561efe76b1f05076eb9cd5cc35bef"
-  license "TODO"
+  license "GPL-3.0-or-later"
 
   depends_on "atk"        => :build
   depends_on "boost"      => :build
@@ -25,6 +25,7 @@ class Slide < Formula
   def install
     system "make"
     system "make", "install", "PREFIX=#{prefix}"
+    prefix.install "LICENSE"
     prefix.install "README.md"
   end
 
