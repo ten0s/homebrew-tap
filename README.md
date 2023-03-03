@@ -29,8 +29,11 @@
 ### How to make sha256sum?
 
 ```
-% curl -sL https://github.com/ten0s/libgimacos/archive/refs/tags/1.0.0.tar.gz | sha256sum -
-cbeb647d3f0e7c0f9cea8f8aceccf32b0065a6c227b98a8e75d58a8ae9a13724  -
+% make checksum
+libgimacos.rb
+b699ead65003c9239dd6e7a296c054475757b1a8cb8db564e1931c92332032e9
+slide.rb
+b3efe4d64808cf9f256e6722d7db6518c2742c823361fc6a68287709cf9a8556
 ```
 
 ## License
