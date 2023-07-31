@@ -18,6 +18,7 @@ class Slide < Formula
   depends_on "pango"      => :build
   depends_on "pcre2"      => :build
   depends_on "pkg-config" => :build
+  depends_on "zstd"       => :build
 
   depends_on "glib"
   depends_on "gobject-introspection"
